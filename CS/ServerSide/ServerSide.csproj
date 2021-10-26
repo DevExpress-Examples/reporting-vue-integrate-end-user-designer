@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -42,48 +42,48 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v19.2">
+    <Reference Include="DevExpress.Data.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v19.2">
+    <Reference Include="DevExpress.DataAccess.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v19.2.Core">
+    <Reference Include="DevExpress.Office.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.2.Core">
+    <Reference Include="DevExpress.RichEdit.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.2.Export">
+    <Reference Include="DevExpress.RichEdit.v21.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v19.2.Core">
+    <Reference Include="DevExpress.Printing.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Mvc.v19.2">
+    <Reference Include="DevExpress.Web.Mvc.v21.2">
     </Reference>
-    <Reference Include="DevExpress.Xpo.v19.2">
+    <Reference Include="DevExpress.Xpo.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v19.2.Core">
+    <Reference Include="DevExpress.Charts.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v19.2">
+    <Reference Include="DevExpress.XtraCharts.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v19.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v19.2.Core">
+    <Reference Include="DevExpress.Sparkline.v21.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v19.2">
+    <Reference Include="DevExpress.CodeParser.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.2">
+    <Reference Include="DevExpress.XtraReports.v21.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.2.Web">
+    <Reference Include="DevExpress.XtraReports.v21.2.Web">
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />

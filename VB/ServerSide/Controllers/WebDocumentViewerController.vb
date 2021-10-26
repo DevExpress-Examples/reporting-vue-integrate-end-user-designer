@@ -7,7 +7,7 @@ Imports System.Web.Mvc
 
 Namespace ServerSide.Controllers
 	Public Class WebDocumentViewerController
-		Inherits WebDocumentViewerApiController
+		Inherits WebDocumentViewerApiControllerBase
 
 		'
 		' GET: /WebDocumentViewer/
