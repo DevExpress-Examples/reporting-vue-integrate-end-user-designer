@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@devexpress/analytics-core": "^19.2.6",
+    "@devexpress/analytics-core": "21.2-next",
     "core-js": "^3.4.4",
-    "devexpress-reporting": "^19.2.6",
-    "devextreme": "^19.2.6",
+    "devexpress-reporting": "21.2-next",
+    "devextreme": "21.2-next",
     "vue": "^2.6.10"
   },
   "devDependencies": {
