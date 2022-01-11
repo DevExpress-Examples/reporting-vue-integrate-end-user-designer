@@ -45,48 +45,48 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v19.2">
+    <Reference Include="DevExpress.Data.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v19.2">
+    <Reference Include="DevExpress.DataAccess.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v19.2.Core">
+    <Reference Include="DevExpress.Office.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.2.Core">
+    <Reference Include="DevExpress.RichEdit.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.2.Export">
+    <Reference Include="DevExpress.RichEdit.v20.1.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v19.2.Core">
+    <Reference Include="DevExpress.Printing.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Mvc.v19.2">
+    <Reference Include="DevExpress.Web.Mvc.v20.1">
     </Reference>
-    <Reference Include="DevExpress.Xpo.v19.2">
+    <Reference Include="DevExpress.Xpo.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v19.2.Core">
+    <Reference Include="DevExpress.Charts.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v19.2">
+    <Reference Include="DevExpress.XtraCharts.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v19.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v19.2.Core">
+    <Reference Include="DevExpress.Sparkline.v20.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v19.2">
+    <Reference Include="DevExpress.CodeParser.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.2">
+    <Reference Include="DevExpress.XtraReports.v20.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.2.Web">
+    <Reference Include="DevExpress.XtraReports.v20.1.Web">
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
