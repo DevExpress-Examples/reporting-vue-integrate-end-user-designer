@@ -25,7 +25,7 @@ Perform the following steps to run this example:
 
 5. Point your browser at [http://localhost:8080/](http://localhost:8080/) to see the result.
 
-![](images/screenshot.png)
+    ![End-User Web Report Designer in JavaScript with Vue](images/screenshot.png)
 
 For a step-by-step tutorial, refer to the
 [Report Designer Integration in Vue](https://docs.devexpress.com/XtraReports/401542) topic.
