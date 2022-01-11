@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ServerSide.Controllers
 {
-    public class ReportDesignerController : ReportDesignerApiController
+    public class ReportDesignerController : ReportDesignerApiControllerBase
     {
         public override ActionResult Invoke() {
             var result = base.Invoke();

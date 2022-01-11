@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace ServerSide.Controllers
 {
-    public class QueryBuilderController : QueryBuilderApiController
+    public class QueryBuilderController : QueryBuilderApiControllerBase
     {
         //
         // GET: /QueryBuilder/

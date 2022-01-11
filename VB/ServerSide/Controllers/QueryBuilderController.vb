@@ -7,7 +7,7 @@ Imports System.Web.Mvc
 
 Namespace ServerSide.Controllers
 	Public Class QueryBuilderController
-		Inherits QueryBuilderApiController
+		Inherits QueryBuilderApiControllerBase
 
 		'
 		' GET: /QueryBuilder/
