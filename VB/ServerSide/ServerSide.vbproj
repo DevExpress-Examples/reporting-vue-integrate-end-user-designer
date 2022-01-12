@@ -199,7 +199,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="XtraReport1.resx">
       <DependentUpon>XtraReport1.vb</DependentUpon>
     </EmbeddedResource>
