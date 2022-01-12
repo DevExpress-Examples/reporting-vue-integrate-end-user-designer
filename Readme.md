@@ -5,9 +5,9 @@
 <!-- default badges end -->
 # How to use the End-User Web Report Designer in JavaScript with Vue Framework
 
-This example consists of two parts: 
+This example consists of two parts:
 
-- A server (back-end) ASP.NET MVC project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
+- A server (back-end) ASP.NET MVC project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
 
 - An <a href="https://vuejs.org/">Vue JavaScript Framework</a> front-end client application.
 
@@ -23,7 +23,7 @@ Perform the following steps to run this example:
 
     ```npm run serve```
 
-5. Point your browser at [http://localhost:8080/](http://localhost:8080/) to see the result.
+5. Point your browser at `http://localhost:8080/` to see the result.
 
     ![End-User Web Report Designer in JavaScript with Vue](images/screenshot.png)
 
