@@ -22,8 +22,6 @@ Perform the following steps to run this example:
 
     ![End-User Web Report Designer in JavaScript with Vue](images/screenshot.png)
 
-For a step-by-step tutorial, refer to the
-[Report Designer Integration in Vue](https://docs.devexpress.com/XtraReports/401542) topic.
 
 ## Files to Review 
 
@@ -31,6 +29,7 @@ For a step-by-step tutorial, refer to the
 - [main.js](JS\vue-report-designer\src\main.js)
 - [ReportingControllers.cs](CS\ServerSideApp\Controllers\ReportingControllers.cs)
 - [CustomReportStorageWebExtension.cs](CS\ServerSideApp\Services\CustomReportStorageWebExtension.cs)
+- [Startup.cs](CS\ServerSideApp\Startup.cs)
 
 ## Documentation
 
