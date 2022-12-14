@@ -10,14 +10,11 @@ export default {
 name: "ReportDesignerComponent",
 mounted() {
     var designerOptions = {
-        reportUrl: ko.observable("Products"), // The URL of a report that is opened in the Report Designer when the application starts.
+        reportUrl: ko.observable("TestReport"),
         requestOptions: {
-        host: "http://localhost:54114/",
-        // Use this line for the ASP.NET MVC backend.
-        getDesignerModelAction: "ReportDesigner/GetReportDesignerModel"
-        // Uncomment this line if you use an ASP.NET Core backend.
-        //invokeAction: "DXXRD"
-            }
+        host: "https://localhost:54114/",
+        getDesignerModelAction: "DXXRD/GetDesignerModel"
+        }
     };
     ko.applyBindings(designerOptions, this.$refs.designer);
 },
