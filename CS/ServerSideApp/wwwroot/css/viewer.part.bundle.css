@@ -1,9 +1,9 @@
 /**
 * DevExtreme (dx.common.css)
-* Version: 22.2.0 (build 22307-1624)
-* Build date: Thu Nov 03 2022
+* Version: 22.2.4
+* Build date: Thu Jan 19 2023
 *
-* Copyright (c) 2012 - 2022 Developer Express Inc. ALL RIGHTS RESERVED
+* Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
 */
 /*!
@@ -12,9 +12,9 @@ It is no longer required.
 */
 /**
 * DevExpress Analytics (dist\css\dx-analytics.common.css)
-* Version:  22.2.1-build-22307-0229
-* Build date: Nov 3, 2022
-* Copyright (c) 2012 - 2022 Developer Express Inc. ALL RIGHTS RESERVED
+* Version:  22.2.4
+* Build date: Jan 25, 2023
+* Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
 .dx-fileimage-input-wrapper {
@@ -624,13 +624,13 @@ It is no longer required.
   padding-right: 15px;
   padding-left: 0;
 }
-.dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-texteditor-input {
+.dx-filtereditor-criteriaoperator-popup .dx-popup-normal .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-texteditor-input {
   font-size: 14px;
   padding-top: 0;
   padding-bottom: 0;
   text-overflow: ellipsis;
 }
-.dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-placeholder {
+.dx-filtereditor-criteriaoperator-popup .dx-popup-normal .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-placeholder {
   font-size: 14px;
   margin-top: -7px;
 }
@@ -898,6 +898,21 @@ It is no longer required.
   margin-left: 0;
   margin-right: 17px;
 }
+.dx-expressioneditor .ui-resizable-handle {
+  opacity: 0;
+  z-index: 100;
+}
+.dx-expressioneditor .ui-resizable-handle:hover {
+  opacity: 0.8;
+}
+.dx-expressioneditor .ui-resizable-handle.ui-resizable-s {
+  bottom: -15px;
+  height: 10px;
+}
+.dx-expressioneditor .ui-resizable-handle.ui-resizable-e {
+  right: -14px;
+  width: 10px;
+}
 .dx-expressioneditor .dx-overlay-content {
   max-height: 593px;
   max-width: 727px;
@@ -906,21 +921,6 @@ It is no longer required.
   border-width: 0px;
   border-style: none;
   padding: 0;
-}
-.dx-expressioneditor .dx-overlay-content .ui-resizable-handle {
-  opacity: 0;
-  z-index: 100;
-}
-.dx-expressioneditor .dx-overlay-content .ui-resizable-handle:hover {
-  opacity: 0.8;
-}
-.dx-expressioneditor .dx-overlay-content .ui-resizable-handle.ui-resizable-s {
-  bottom: -15px;
-  height: 10px;
-}
-.dx-expressioneditor .dx-overlay-content .ui-resizable-handle.ui-resizable-e {
-  right: -14px;
-  width: 10px;
 }
 .dx-expressioneditor .dx-expression-tree {
   display: flex;
@@ -1272,6 +1272,9 @@ It is no longer required.
   position: absolute;
   top: 14px;
 }
+.dx-collectioneditor .dx-field-label.dx-accordion-header.dxd-text-primary.dx-accordion-empty .propertygrid-editor-collapsed {
+  top: 7px;
+}
 .dxrd-ellipsis-button .dx-dropdowneditor-icon:before {
   content: "";
 }
@@ -1343,6 +1346,76 @@ It is no longer required.
 .ui-widget-content .ui-state-disabled,
 .ui-widget-header .ui-state-disabled {
   opacity: 1;
+}
+.ui-resizable {
+  position: relative;
+}
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+  display: none;
+}
+.ui-resizable-n {
+  cursor: n-resize;
+  height: 7px;
+  width: 100%;
+  top: -5px;
+  left: 0;
+}
+.ui-resizable-s {
+  cursor: s-resize;
+  height: 7px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%;
+}
+.ui-resizable-w {
+  cursor: w-resize;
+  width: 7px;
+  left: -5px;
+  top: 0;
+  height: 100%;
+}
+.ui-resizable-se {
+  cursor: se-resize;
+  width: 12px;
+  height: 12px;
+  right: 1px;
+  bottom: 1px;
+}
+.ui-resizable-sw {
+  cursor: sw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  bottom: -5px;
+}
+.ui-resizable-nw {
+  cursor: nw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  top: -5px;
+}
+.ui-resizable-ne {
+  cursor: ne-resize;
+  width: 9px;
+  height: 9px;
+  right: -5px;
+  top: -5px;
 }
 .dx-editors .dx-property-grid-search-group {
   position: absolute;
@@ -1808,7 +1881,7 @@ It is no longer required.
   top: 1px;
 }
 .dx-editors .dxrd-properties-wrapper .dxrd-editormenu-boxes .dxrd-editormenu-box.dxrd-editor-box-image:not(.dxrd-editormenu-expressions) {
-  opacity: 50%;
+  opacity: 0.5;
 }
 .dx-editors .dxrd-properties-wrapper .dxrd-editormenu-modified:not(.dxrd-editormenu-usestyle) .dxrd-editormenu-box-inside {
   background-color: white;
@@ -2774,9 +2847,9 @@ It is no longer required.
 
 /**
 * DevExpress HTML/JS Reporting (dist\css\dx-webdocumentviewer.css)
-* Version:  22.2.1-build-22307-0229
-* Build date: Nov 3, 2022
-* Copyright (c) 2012 - 2022 Developer Express Inc. ALL RIGHTS RESERVED
+* Version:  22.2.4
+* Build date: Jan 25, 2023
+* Copyright (c) 2012 - 2023 Developer Express Inc. ALL RIGHTS RESERVED
 * License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
 .dxrd-preview.dxrd-designer-wrapper.dx-rtl .dxrd-preview-parameter-actions-container,
@@ -4287,15 +4360,15 @@ It is no longer required.
   border: 1px solid #808080;
 }
 .dxrdp-parameters-mobile .dxrdp-image-parameters-cancel {
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbmNlbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDY0IDY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2NCA2NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+Cjxwb2x5Z29uIGNsYXNzPSJXaGl0ZSIgcG9pbnRzPSI1OCwxMiA1Miw2IDMyLDI2IDEyLDYgNiwxMiAyNiwzMiA2LDUyIDEyLDU4IDMyLDM4IDUyLDU4IDU4LDUyIDM4LDMyICIvPgo8L3N2Zz4K);
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FuY2VsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDY0IDY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2NCA2NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuV2hpdGV7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cG9seWdvbiBjbGFzcz0iV2hpdGUiIHBvaW50cz0iNTgsMTIgNTIsNiAzMiwyNiAxMiw2IDYsMTIgMjYsMzIgNiw1MiAxMiw1OCAzMiwzOCA1Miw1OCA1OCw1MiAzOCwzMiAiLz4NCjwvc3ZnPg0K);
   background-repeat: no-repeat;
 }
 .dxrdp-parameters-mobile .dxrdp-image-parameters-submit {
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlN1Ym1pdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDY0IDY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2NCA2NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+Cjxwb2x5Z29uIGNsYXNzPSJXaGl0ZSIgcG9pbnRzPSI1OCw4IDIyLDQ0IDYsMjggMCwzNCAyMiw1NiA2NCwxNCAiLz4KPC9zdmc+Cg==);
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iU3VibWl0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDY0IDY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2NCA2NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuV2hpdGV7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cG9seWdvbiBjbGFzcz0iV2hpdGUiIHBvaW50cz0iNTgsOCAyMiw0NCA2LDI4IDAsMzQgMjIsNTYgNjQsMTQgIi8+DQo8L3N2Zz4NCg==);
   background-repeat: no-repeat;
 }
 .dxrdp-parameters-mobile .dxrdp-image-parameters-reset {
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlJlc2V0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNjQgNjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY0IDY0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9IldoaXRlIiBkPSJNMzIsNGMtNy43LDAtMTQuNywzLjEtMTkuOCw4LjJMNCw0djIyaDAuN0gxM2gxM2wtOC4xLTguMUMyMS41LDE0LjIsMjYuNSwxMiwzMiwxMmMxMSwwLDIwLDksMjAsMjAKCXMtOSwyMC0yMCwyMHMtMjAtOS0yMC0yMEg0YzAsMTUuNSwxMi41LDI4LDI4LDI4czI4LTEyLjUsMjgtMjhTNDcuNSw0LDMyLDR6Ii8+Cjwvc3ZnPgo=);
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iUmVzZXQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNjQgNjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY0IDY0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5XaGl0ZXtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJXaGl0ZSIgZD0iTTMyLDRjLTcuNywwLTE0LjcsMy4xLTE5LjgsOC4yTDQsNHYyMmgwLjdIMTNoMTNsLTguMS04LjFDMjEuNSwxNC4yLDI2LjUsMTIsMzIsMTJjMTEsMCwyMCw5LDIwLDIwDQoJcy05LDIwLTIwLDIwcy0yMC05LTIwLTIwSDRjMCwxNS41LDEyLjUsMjgsMjgsMjhzMjgtMTIuNSwyOC0yOFM0Ny41LDQsMzIsNHoiLz4NCjwvc3ZnPg0K);
   background-repeat: no-repeat;
 }
 .dx-picture-editing-filtercontent {
@@ -4312,6 +4385,11 @@ It is no longer required.
   bottom: 0;
   top: 40px;
   width: 100%;
+}
+.dx-designer .dx-overlay-content .dx-popup-content {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .dx-picture-editing-imagescontainer {
   height: 100%;
@@ -5036,10 +5114,10 @@ It is no longer required.
 .dx-report-viewer.dx-accessibility .dx-filtereditor .dx-filtereditor-tree.dx-rtl .criteria-operator-group .criteria-operator-content{
   padding-right:0.9375rem;
 }
-.dx-report-viewer.dx-accessibility .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-texteditor-input{
+.dx-report-viewer.dx-accessibility .dx-filtereditor-criteriaoperator-popup .dx-popup-normal .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-texteditor-input{
   font-size:0.875rem;
 }
-.dx-report-viewer.dx-accessibility .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-placeholder{
+.dx-report-viewer.dx-accessibility .dx-filtereditor-criteriaoperator-popup .dx-popup-normal .dx-popup-content .dx-filtereditor-search .dx-texteditor:not(.dx-multiline):not(.dx-textarea) .dx-placeholder{
   font-size:0.875rem;
   margin-top:-0.4375rem;
 }
@@ -5189,20 +5267,20 @@ It is no longer required.
 .dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-rtl .dx-expression-tree .dx-expressioneditor-tools .dx-expressioneditor-tools-tabs .dx-expressioneditor-tools-tab .dx-expressioneditor-description{
   margin-right:1.0625rem;
 }
+.dx-report-viewer.dx-accessibility .dx-expressioneditor .ui-resizable-handle.ui-resizable-s{
+  bottom:-0.9375rem;
+  height:0.625rem;
+}
+.dx-report-viewer.dx-accessibility .dx-expressioneditor .ui-resizable-handle.ui-resizable-e{
+  right:-0.875rem;
+  width:0.625rem;
+}
 .dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-overlay-content{
   max-height:37.0625rem;
   max-width:45.4375rem;
 }
 .dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-overlay-content .dx-popup-content{
   border-width:0rem;
-}
-.dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-overlay-content .ui-resizable-handle.ui-resizable-s{
-  bottom:-0.9375rem;
-  height:0.625rem;
-}
-.dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-overlay-content .ui-resizable-handle.ui-resizable-e{
-  right:-0.875rem;
-  width:0.625rem;
 }
 .dx-report-viewer.dx-accessibility .dx-expressioneditor .dx-expression-tree{
   padding:1.0625rem 1.0625rem 0 1.0625rem;
@@ -5400,6 +5478,9 @@ It is no longer required.
 .dx-report-viewer.dx-accessibility .dx-collectioneditor .propertygrid-editor-collapsed{
   top:0.875rem;
 }
+.dx-report-viewer.dx-accessibility .dx-collectioneditor .dx-field-label.dx-accordion-header.dxd-text-primary.dx-accordion-empty .propertygrid-editor-collapsed{
+  top:0.4375rem;
+}
 .dx-report-viewer.dx-accessibility .dxrd-ellipsis-button .dxrd-ellipsis-image{
   background-size:1rem 1rem;
 }
@@ -5432,6 +5513,49 @@ It is no longer required.
 .dx-report-viewer.dx-accessibility .dxrd-accordion-collection-item .dx-accordion-header > div .dx-group-header-font{
   margin-top:-0.0625rem;
   font-size:0.6875rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-handle{
+  font-size:0.0.0625rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-n{
+  height:0.4375rem;
+  top:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-s{
+  height:0.4375rem;
+  bottom:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-e{
+  width:0.4375rem;
+  right:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-w{
+  width:0.4375rem;
+  left:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-se{
+  width:0.75rem;
+  height:0.75rem;
+  right:0.0625rem;
+  bottom:0.0625rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-sw{
+  width:0.5625rem;
+  height:0.5625rem;
+  left:-0.3125rem;
+  bottom:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-nw{
+  width:0.5625rem;
+  height:0.5625rem;
+  left:-0.3125rem;
+  top:-0.3125rem;
+}
+.dx-report-viewer.dx-accessibility .ui-resizable-ne{
+  width:0.5625rem;
+  height:0.5625rem;
+  right:-0.3125rem;
+  top:-0.3125rem;
 }
 .dx-report-viewer.dx-accessibility .dx-editors .dx-property-grid-search-group{
   height:1.75rem;
