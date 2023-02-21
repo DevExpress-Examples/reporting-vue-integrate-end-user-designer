@@ -163,7 +163,6 @@
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QueryBuilderController.cs" />
-    <Compile Include="Controllers\ReportControllers.cs" />
     <Compile Include="Controllers\ReportDesignerController.cs" />
     <Compile Include="Controllers\WebDocumentViewerController.cs" />
     <Compile Include="Global.asax.cs">
