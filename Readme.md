@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/229233506/2022.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848270)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # How to use the End-User Web Report Designer in JavaScript with Vue Framework
 
 This example consists of two parts:
@@ -13,8 +8,8 @@ This example consists of two parts:
 
 Perform the following steps to run this example:
 
-1. Open the back-end project solution (**CS\ServerSide.sln**) in Visual Studio and run the project.
-2. Navigate to the **JS\vue-report-designer** folder that is the client part's root folder.
+1. Open the back-end project solution (**CS/ServerSide.sln**) in Visual Studio and run the project.
+2. Navigate to the **JS/vue-report-designer** folder that is the client part's root folder.
 3. Open the console and run the following command:
 
     ```npm install```
@@ -30,11 +25,11 @@ Perform the following steps to run this example:
 
 ## Files to Review 
 
-- [ReportDesignerComponent.vue](JS\vue-report-designer\src\components\ReportDesignerComponent.vue)
-- [main.js](JS\vue-report-designer\src\main.js)
-- [ReportingControllers.cs](CS\ServerSideApp\Controllers\ReportingControllers.cs)
-- [CustomReportStorageWebExtension.cs](CS\ServerSideApp\Services\CustomReportStorageWebExtension.cs)
-- [Startup.cs](CS\ServerSideApp\Startup.cs)
+- [ReportDesignerComponent.vue](JS/vue-report-designer/src/components/ReportDesignerComponent.vue)
+- [main.js](JS/vue-report-designer/src/main.js)
+- [ReportingControllers.cs](CS/ServerSideApp/Controllers/ReportingControllers.cs)
+- [CustomReportStorageWebExtension.cs](CS/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
+- [Startup.cs](CS/ServerSideApp/Startup.cs)
 
 ## Documentation
 
