@@ -13,8 +13,8 @@ This example consists of two parts:
 
 Perform the following steps to run this example:
 
-1. Open the back-end project solution (**CS\ServerSide.sln**) in Visual Studio and run the project.
-2. Navigate to the **JS\vue-report-designer** folder that is the client part's root folder.
+1. Open the back-end project solution (**CS/ServerSide.sln**) in Visual Studio and run the project.
+2. Navigate to the **JS/vue-report-designer** folder that is the client part's root folder.
 3. Open the console and run the following command:
 
     ```npm install```
@@ -30,11 +30,11 @@ Perform the following steps to run this example:
 
 ## Files to Review 
 
-- [ReportDesignerComponent.vue](JS\vue-report-designer\src\components\ReportDesignerComponent.vue)
-- [main.js](JS\vue-report-designer\src\main.js)
-- [ReportingControllers.cs](CS\ServerSideApp\Controllers\ReportingControllers.cs)
-- [CustomReportStorageWebExtension.cs](CS\ServerSideApp\Services\CustomReportStorageWebExtension.cs)
-- [Startup.cs](CS\ServerSideApp\Startup.cs)
+- [ReportDesignerComponent.vue](JS/vue-report-designer/src/components/ReportDesignerComponent.vue)
+- [main.js](JS/vue-report-designer/src/main.js)
+- [ReportingControllers.cs](CS/ServerSideApp/Controllers/ReportingControllers.cs)
+- [CustomReportStorageWebExtension.cs](CS/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
+- [Startup.cs](CS/ServerSideApp/Startup.cs)
 
 ## Documentation
 
