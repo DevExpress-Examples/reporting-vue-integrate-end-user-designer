@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,8 +18,7 @@ namespace ServerSideApp
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) {
             return WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseUrls("https://localhost:54114/");
+                .UseStartup<Startup>();
         }
     }
 }
