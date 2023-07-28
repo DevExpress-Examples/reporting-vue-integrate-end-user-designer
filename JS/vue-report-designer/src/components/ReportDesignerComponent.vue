@@ -18,7 +18,7 @@ mounted() {
     };
     ko.applyBindings(designerOptions, this.$refs.designer);
 },
-beforeDestroy() {
+beforeUnmount() {
     ko.cleanNode(this.$refs.designer);
 }
 };
