@@ -42,4 +42,3 @@ Perform the following steps to run this example:
 ## More Examples
 
 - [How to use the Web Document Viewer in JavaScript with the Vue JavaScript Framework](https://github.com/DevExpress-Examples/reporting-web-document-viewer-in-javascript-with-vue)
-

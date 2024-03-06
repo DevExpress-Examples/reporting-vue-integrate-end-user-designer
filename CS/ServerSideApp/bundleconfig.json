@@ -221,6 +221,9 @@
   {
     "outputFileName": "wwwroot/css/designer.part.bundle.css",
       "inputFiles": [
+      "node_modules/ace-builds/css/ace.css",
+      "node_modules/ace-builds/css/theme/dreamweaver.css",
+      "node_modules/ace-builds/css/theme/ambiance.css",
       "node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
       "node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"
       ],
@@ -256,8 +259,6 @@
 
       "node_modules/ace-builds/src-min-noconflict/ace.js",
       "node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
-      "node_modules/ace-builds/src-min-noconflict/theme-dreamweaver.js",
-      "node_modules/ace-builds/src-min-noconflict/theme-ambiance.js",
       "node_modules/ace-builds/src-min-noconflict/snippets/text.js"
       ],
     "minify": {
