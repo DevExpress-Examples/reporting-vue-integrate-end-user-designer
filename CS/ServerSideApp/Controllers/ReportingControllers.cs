@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 using DevExpress.DataAccess.Sql;
 using System.Collections.Generic;
 using DevExpress.XtraReports.Web.ReportDesigner.Services;
-using DevExpress.XtraReports.CustomControls.RoundBordersControls;
 using System.Threading.Tasks;
 
 namespace ServerSideApp.Controllers {
@@ -38,7 +37,6 @@ namespace ServerSideApp.Controllers {
             var designerModel = await reportDesignerModelBuilder
                 .Report(reportName)
                 .DataSources(dataSources)
-                .CustomControls(typeof(XRRoundLabel))
                 .BuildModelAsync();
 
             return DesignerModel(designerModel);
