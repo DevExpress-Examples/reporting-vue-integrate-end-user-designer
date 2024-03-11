@@ -33,11 +33,11 @@ Perform the following steps to run this example:
 
 ## Files to Review 
 
-- [ReportDesignerComponent.vue](JS/vue-report-designer/src/components/ReportDesignerComponent.vue)
-- [main.js](JS/vue-report-designer/src/main.js)
-- [ReportingControllers.cs](CS/ServerSideApp/Controllers/ReportingControllers.cs)
-- [CustomReportStorageWebExtension.cs](CS/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
-- [Startup.cs](CS/ServerSideApp/Startup.cs)
+- [ReportDesignerComponent.vue](vue-report-designer/src/components/ReportDesignerComponent.vue)
+- [main.js](vue-report-designer/src/main.js)
+- [ReportingControllers.cs](ServerSideApp/ServerSideApp/Controllers/ReportingControllers.cs)
+- [CustomReportStorageWebExtension.cs](ServerSideApp/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
+- [Program.cs](ServerSideApp/ServerSideApp/Program.cs)
 
 ## Documentation
 
