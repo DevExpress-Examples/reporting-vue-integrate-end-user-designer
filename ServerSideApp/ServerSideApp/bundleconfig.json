@@ -1,0 +1,294 @@
+[
+  {
+    "outputFileName": "wwwroot/css/thirdparty.bundle.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.blue.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.blue.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.blue.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.blue.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.blue.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.blue.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.lime.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.lime.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.lime.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.lime.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.lime.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.lime.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.orange.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.orange.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.orange.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.orange.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.orange.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.orange.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.purple.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.purple.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.purple.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.purple.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.purple.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.purple.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.teal.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.teal.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.teal.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.material.teal.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.material.teal.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.teal.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.light.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.light.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.dark.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.dark.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.dark.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.carmine.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.carmine.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.carmine.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.darkmoon.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.darkmoon.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.darkmoon.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.darkviolet.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.darkviolet.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.darkviolet.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.greenmist.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.greenmist.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.greenmist.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx.softblue.bundle.css",
+    "inputFiles": [
+      "node_modules/devextreme-dist/css/dx.softblue.css",
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.softblue.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/dx-reporting-skeleton-screen.css",
+    "inputFiles": [
+      "node_modules/devexpress-reporting/dist/css/dx-reporting-skeleton-screen.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/viewer.part.bundle.css",
+    "inputFiles": [
+      "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
+      "node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/designer.part.bundle.css",
+    "inputFiles": [
+      
+      "node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
+      "node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"     
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/ace/ace.bundle.css",
+    "inputFiles": [
+      "node_modules/ace-builds/css/ace.css",
+      "node_modules/ace-builds/css/theme/dreamweaver.css",
+      "node_modules/ace-builds/css/theme/ambiance.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "adjustRelativePaths": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/site.thirdparty.bundle.js",
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.min.js",
+      "node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ],
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/reporting.thirdparty.bundle.js",
+    "inputFiles": [
+      "node_modules/knockout/build/output/knockout-latest.js",
+      "node_modules/ace-builds/src-min-noconflict/ace.js",
+      "node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
+      "node_modules/ace-builds/src-min-noconflict/snippets/text.js"
+      ],
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/viewer.part.bundle.js",
+    "inputFiles": [
+      "node_modules/devextreme-dist/js/dx.all.js",
+      "node_modules/@devexpress/analytics-core/dist/js/dx-analytics-core.min.js",
+      "node_modules/devexpress-reporting/dist/js/dx-webdocumentviewer.min.js"
+      ],
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": false
+  },
+
+
+  {
+    "outputFileName": "wwwroot/js/designer.part.bundle.js",
+    "inputFiles": [      
+      
+      "node_modules/@devexpress/analytics-core/dist/js/dx-querybuilder.min.js",
+      "node_modules/devexpress-reporting/dist/js/dx-reportdesigner.min.js"
+      ],
+    "minify": {
+      "enabled": false
+    },
+    "sourceMap": false
+  }
+]

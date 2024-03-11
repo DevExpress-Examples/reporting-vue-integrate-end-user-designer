@@ -1,0 +1,22 @@
+﻿@model DevExpress.XtraReports.Web.ReportDesigner.ReportDesignerModel
+
+@{
+    var designerRender = Html.DevExpress().ReportDesigner("reportDesigner")
+        .Height("100%")
+        .Bind(Model);
+    @designerRender.RenderHtml()
+}
+
+@section Scripts {
+    <link href="~/css/dx-reporting-skeleton-screen.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+    <link rel="stylesheet" href="~/css/designer.part.bundle.css" />
+    <link rel="stylesheet" href="~/css/ace/ace.bundle.css" />
+    <link rel="stylesheet" href="~/css/dx.material.blue.light.bundle.css" />
+
+    <script src="~/js/reporting.thirdparty.bundle.js"></script>
+    <script src="~/js/viewer.part.bundle.js"></script>
+    <script src="~/js/designer.part.bundle.js"></script>
+
+    @designerRender.RenderScripts()
+}
