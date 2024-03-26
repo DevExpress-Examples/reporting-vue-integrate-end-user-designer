@@ -50,8 +50,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.114.4" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.5-pre-24058" />
-    <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.5-pre-24058" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.*-*" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
     <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
   </ItemGroup>
