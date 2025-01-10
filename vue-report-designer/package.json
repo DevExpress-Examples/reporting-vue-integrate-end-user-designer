@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint --openssl-legacy-provider"
   },
   "dependencies": {
-    "@devexpress/analytics-core": "^23.2.4",
+    "@devexpress/analytics-core": "^24.2.3",
     "core-js": "^3.8.3",
-    "devexpress-reporting": "^23.2.4",
-    "devextreme": "^23.2.4",
+    "devexpress-reporting": "^24.2.3",
+    "devextreme": "^24.2.3",
     "vue": "^2.6.14"
   },
   "devDependencies": {
