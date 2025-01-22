@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ko from "knockout";
+import * as ko from 'knockout';
 import "devexpress-reporting/dx-reportdesigner";
 
 export default {
@@ -12,7 +12,7 @@ mounted() {
     var designerOptions = {
         reportUrl: ko.observable("TestReport"),
         requestOptions: {
-        host: "https://localhost:5001/",
+        host: "http://localhost:5000/",
         getDesignerModelAction: "DXXRD/GetDesignerModel"
         }
     };
